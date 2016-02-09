@@ -77,6 +77,7 @@ class SimpleExtractor(FeatureExtractor):
         food = state.getFood()
         walls = state.getWalls()
         ghosts = state.getGhostPositions()
+		capsules = state.getCapsules()
 
         features = util.Counter()
 
